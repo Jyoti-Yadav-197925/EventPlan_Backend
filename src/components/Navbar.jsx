@@ -5,8 +5,7 @@ export default function Navbar() {
   const [show, setShow] = useState(false);
   return (
     <nav>
-      {/* <div className="logo">Event</div> */}
-      <div className="logo" style={{ fontFamily: 'Alex Brush', color: 'black', fontWeight: 600, fontSize: '30px' }}>Event Planner</div>
+    <div className="logo" style={{ fontFamily: 'Alex Brush', color: 'black', fontWeight: 600, fontSize: '30px' }}>Event Planner</div>
      
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">

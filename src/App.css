@@ -178,7 +178,7 @@ nav svg {
   font-family: "Alex Brush", cursive;
   color: #a2783a;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 38px;
 }
 .home .item div {
   display: flex;
@@ -188,11 +188,12 @@ nav svg {
 .home .item div h1 {
   font-size: 36px;
   font-weight: 300;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 .home .item div p {
-  color: gray;
-  font-size: 16px;
+  /* color: gray; */
+  color: #937235f5;
+  font-size: 18px;
 }
 .home .item div a {
   padding: 10px 30px;
@@ -364,15 +365,15 @@ footer .banner .tag div button {
   color: #a2783a;
   font-family: "Alex Brush", cursive;
   font-weight: 200;
-  font-size: 24px;
+  font-size: 37px;
   margin-bottom: 20px;
 }
 .about h2 {
   color: #000;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 32px;
   margin-bottom: 20px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 .about p {
   line-height: 36px;
@@ -385,10 +386,11 @@ footer .banner .tag div button {
 }
 .services h2 {
   color: #000;
-  font-weight: 200;
+
+  font-weight: 400;
   font-size: 32px;
   margin-bottom: 20px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 .services .banner {
   display: grid;
@@ -398,16 +400,18 @@ footer .banner .tag div button {
 .services .banner .item {
   display: flex;
   position: relative;
-  height: 300px;
+  height: 360px;
   overflow: hidden;
 }
 .services .banner .item img {
   width: 100%;
   height: 100%;
+  /* align-items: center; */
+  object-fit: cover;
 }
 .services .banner .item h3 {
   position: absolute;
-  background: #fff7ea;
+  background: #cbc1b2;
   width: 100%;
   height: 100%;
   display: flex;

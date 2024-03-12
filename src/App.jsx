@@ -14,8 +14,8 @@ function App() {
     <Router>
       <Navbar />
       <Home />
-      <About />
       <Services />
+      <About />
       <Contact />
       <Footer />
       <Toaster />
